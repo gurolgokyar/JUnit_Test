@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/InarAcademyTest.iml" filepath="$PROJECT_DIR$/InarAcademyTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JUnit_Week16.iml" filepath="$PROJECT_DIR$/JUnit_Week16.iml" />
     </modules>
   </component>
 </project>
