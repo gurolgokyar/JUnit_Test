@@ -14,9 +14,8 @@ public class ShippingCostCalculatorTest {
     //zero                                                                     Express  (invalid)
     //Negative                                                                 Standard (invalid)
     //Negative                                                                 Express  (invalid)
+
     ShippingCostCalculator shippingCostCalculator = new ShippingCostCalculator();
-
-
     //Test positive weight
     @Test
     void testCalculateCostWithLocalDestinationAndStandardDeliveryAtPositiveValue() {
