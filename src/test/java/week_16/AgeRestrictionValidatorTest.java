@@ -30,7 +30,7 @@ public class AgeRestrictionValidatorTest {
 
     @Test
     void testIsEligibleWithValidValue(){
-        boolean result = ageRestrictionValidator.isEligible(64);
+        boolean result = ageRestrictionValidator.isEligible(45);
         assertTrue(result);
     }
 
@@ -60,7 +60,7 @@ public class AgeRestrictionValidatorTest {
 
     @Test
     void testIsEligibleWithExtremeHighAge(){
-        boolean result = ageRestrictionValidator.isEligible(64);
+        boolean result = ageRestrictionValidator.isEligible(100);
         assertTrue(result);
     }
 
